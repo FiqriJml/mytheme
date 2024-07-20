@@ -1,7 +1,25 @@
-body {
-  font-family: Arial, sans-serif;
+* {
+  box-sizing: border-box;
+  outline: none;
+  padding: 0;
+  margin: 0;
 }
 
-h1 {
-  color: #333;
+button {
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: #ffffff;
+  width: 100%;
+  margin: 0;
 }
