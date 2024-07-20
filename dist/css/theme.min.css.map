@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss","theme.min.css"],"names":[],"mappings":"AAAA,KACI,4BCCJ,CDEA,GACI,UCCJ","file":"theme.min.css","sourcesContent":["body {\r\n    font-family: Arial, sans-serif;\r\n}\r\n\r\nh1 {\r\n    color: #333;\r\n}\r\n","body {\n  font-family: Arial, sans-serif;\n}\n\nh1 {\n  color: #333;\n}"]}

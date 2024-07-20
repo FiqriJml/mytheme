@@ -1,0 +1,13 @@
+{
+    "paths": {
+        "scss": "src/sass/**/*.scss",
+        "scssMain": "src/sass/style.scss",
+        "js": "src/js/**/*.js",
+        "jsMain": "src/js/main.js",
+        "cssDest": "dist/css",
+        "jsDest": "dist/js"
+    },
+    "browsersync": {
+        "proxy": "http://newtask.test/"
+    }
+}
