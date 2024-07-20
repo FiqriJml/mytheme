@@ -10,9 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^5.0.0"
-  },
-  "dependencies": {
+    "gulp": "^5.0.0",
     "browser-sync": "^3.0.2",
     "cssnano": "^7.0.4",
     "gulp-concat": "^2.6.1",
@@ -21,5 +19,6 @@
     "gulp-sass": "^5.1.0",
     "gulp-terser": "^2.1.0",
     "sass": "^1.77.8"
-  }
+  },
+  "dependencies": {}
 }
