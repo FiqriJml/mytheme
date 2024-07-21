@@ -5,7 +5,7 @@ defined('ABSPATH') || exit;
 $includes = array(
     '/theme-setup.php',     // Initialize theme default settings.
     '/enqueue.php', // Enqueue elements
-    '/custom-block-editor.php', // Register gutenberg blocks
+    '/custom-block-editor.php', // Register blocks
 );
 
 foreach ($includes as $file) {

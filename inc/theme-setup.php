@@ -3,12 +3,12 @@ use Carbon_Fields\Container;
 use Carbon_Fields\Field;
 
 // Load Carbon fields through composer
+add_action('after_setup_theme', 'crb_load');
 function crb_load()
 {
     require_once get_template_directory() . '/vendor/autoload.php';
     \Carbon_Fields\Carbon_Fields::boot();
 }
-add_action('after_setup_theme', 'crb_load');
 // Get and set data for gutenberg blocks
 function getData()
 {
@@ -20,6 +20,7 @@ function setData($data)
     return set_query_var('component_data', $data);
 }
 
+add_action('after_setup_theme', 'mytheme_setup');
 function mytheme_setup()
 {
     // Menambahkan dukungan untuk judul dinamis.
@@ -38,4 +39,3 @@ function mytheme_setup()
         )
     );
 }
-add_action('after_setup_theme', 'mytheme_setup');
